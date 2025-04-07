@@ -105,7 +105,7 @@ class _FeedScreenState extends State<FeedScreen> {
                   itemCount: posts.length,
                   itemBuilder: (ctx, i) {
                     final post = posts[i];
-                    final data = post.data() as Map<String, dynamic>;
+                    final data = post.data() ;
                     return Card(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
